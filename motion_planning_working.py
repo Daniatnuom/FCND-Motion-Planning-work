@@ -5,7 +5,10 @@ from enum import Enum, auto
 
 import numpy as np
 
-from planning_utils import a_star, heuristic, create_grid
+#from planning_utils import a_star, heuristic, create_grid, pruned_path_exec
+
+# My note: import all method by * from planning utils.
+from planning_utils import *
 from udacidrone import Drone
 from udacidrone.connection import MavlinkConnection
 from udacidrone.messaging import MsgID
